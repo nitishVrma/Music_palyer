@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="../Css/style.css" />
   </head>
   <body>
-    <div id="wrapper">
+    <div id="container">
       <!-- Audio playing Visuals -->
       <div id="visuals">
-        <canvas></canvas>
+        <canvas id="canvas1"></canvas>
       </div>
-      <audio src="../content/Itachi.mp3"></audio>
+      <audio id="player" preload="metadata">
+        <source src="../content/Itachi.mp3" />
+      </audio>
 
       <!-- Audio Controls -->
       <div id="controls">
